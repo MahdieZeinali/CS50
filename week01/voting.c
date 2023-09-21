@@ -3,18 +3,18 @@
 
 int main(void)
 {
-    char answer = get_char("do you agree?/n");
+    char answer = get_char("do you agree?\n");
 
     if(answer == 'y' || answer == 'Y')
     {
-        printf("Agreed!/n");
+        printf("Agreed!\n");
     }
     else if(answer == 'n' || answer == 'N')
     {
-        printf("Disagreed!/n");
+        printf("Disagreed!\n");
     }
     else
     {
-        printf("invalid input!/n");
+        printf("invalid input!\n");
     }
 }
